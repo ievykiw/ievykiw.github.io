@@ -1,0 +1,140 @@
+.myskills-container-title {
+  margin-top: 1.25rem;
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  text-align: center;
+}
+
+.myskills-container-subtitle {
+  margin-bottom: 6.25rem;
+  font-family: 'Syne', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.myskills-container-info {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.myskills-container-paragraf {
+  background-color: rgba(255, 255, 255, 0.07);
+  border: 0.375rem solid var(--primary-color);
+  border-radius: 1.875rem;
+  padding: 1.875rem;
+  margin: 1.5rem 0;
+  max-width: 100%;
+}
+
+.character-up-finger img {
+  max-width: 90%;
+  border-radius: 50%;
+  animation: fadeIn 1.5s ease-in forwards, flutuar 3.4s ease-in-out infinite;
+  margin: 0 auto;
+}
+
+.logos {
+  margin-top: 9.375rem;
+  overflow: hidden;
+  padding: 1.875rem 0;
+  white-space: nowrap;
+  position: relative;
+  width: 100%;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  content: '';
+  width: 50%;
+  height: 100%;
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), var(--bg-dark));
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), var(--bg-dark));
+}
+
+.logo_items {
+  display: inline-block;
+  animation: 15s slides infinite linear;
+  transition: transform 0.3s ease;
+}
+
+.logo_items img {
+  height: 6.325rem;
+}
+
+.gradient-skills {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle at bottom right,
+    rgba(230, 171, 76, 0.6),
+    rgba(100, 200, 255, 0) 15%
+  );
+  opacity: 0;
+  animation: expandir 3s ease-out forwards;
+  z-index: -1;
+}
+
+.gradient-skills::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle at bottom right,
+    rgba(230, 171, 76, 0.6),
+    rgba(100, 200, 255, 0) 15%
+  );
+  opacity: 0;
+  animation: expandir 3s ease-out forwards;
+  z-index: -1;
+}
+
+@keyframes flutuar {
+
+  0%,
+  100% {
+    transform: translateY(20px);
+  }
+
+  50% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes slides {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes expandir {
+  to {
+      width: 100%;
+      height: 100%;
+      opacity: 0.7;
+  }
+}

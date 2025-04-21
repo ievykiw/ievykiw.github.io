@@ -1,0 +1,346 @@
+/* SECTION - HOME */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.home-elements{
+    display: flex;
+    flex-direction:row;
+    z-index: 2;
+}
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-weight: 800;
+    width: 60%;
+    height: 50%;
+    margin-right: 5%;
+    z-index: 2;
+}
+
+.home-container-title{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size:300%;
+}
+
+.home-container-paragraf{
+    font-family: 'Archivo' sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-content: center;
+    text-align: justify;
+    font-size: large;
+    font-weight: 300;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.home-container-paragraf b, .home-container-paragraf a{
+
+    font-weight: 800;
+    color: var(--primary-color);
+}
+
+
+/* SECTION - ABOUT ME */
+
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.aboutme-elements{
+    display: flex;
+    flex-direction:row;
+    z-index: 2;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.aboutme-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    height: 50%;
+    z-index: 2;
+    margin-left: 5%;
+}
+
+.aboutme-container-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    padding: 80%;
+}
+
+.aboutme-container-title{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: 300%;
+}
+
+.aboutme-container-subtitle{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Syne', sans-serif;
+    font-weight: 300;
+    font-size: 100%;
+    
+    font-style: italic;
+}
+
+.aboutme-container-paragraf{
+    font-family: 'Archivo' sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-content: center;
+    text-align: justify;
+    font-size: large;
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+.aboutme-container-paragraf b{
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+/* SECTION - MY SKILLS */
+
+#skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.myskills-elements{
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    justify-items: center;
+    align-items: center;
+    width: 50%;
+    
+}
+
+
+.myskills-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    margin-left: 5%;
+}
+
+.myskills-container-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: top;
+    max-width: 100%;
+}
+
+
+.myskills-container-title{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: 300%;
+    width: 100%;
+}
+
+.myskills-container-subtitle{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Syne', sans-serif;
+    font-weight: 300;
+    font-size: 100%;
+    color: var(--primary-color);
+    font-size: larger;
+}
+
+.myskills-container-paragraf{
+    font-family: 'Archivo' sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-content: center;
+    text-align: justify;
+    font-size: large;
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+.myskills-container-paragraf b{
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+
+/* SECTION - PROJECTS */
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4vh 2vw;
+    height: 100vh;
+    width: 100%;
+}
+
+.projects-elements {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.projetcs-container-text {
+    width: 100%;
+    text-align: center;
+}
+
+.projects-container-title{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: 300%;
+    width: 100%;
+}
+
+.projetcs-container-paragraf{
+    font-family: 'Archivo' sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-content: center;
+    text-align: justify;
+    font-size: x-large;
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+
+/* SECTION - CONTACT ME */
+
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.contact-elements{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 50%;
+    margin-top: 50px;
+    z-index: 2;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.contact-text{
+    width: 150%;
+}
+
+
+.contact-title{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: 300%;
+    width: 100%;
+}
+
+.contact-paragraf{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-size: large;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-weight: 500;
+    padding-top: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.email-contact p{
+    margin-bottom: 0px;
+  }
+
+.email-contact a{
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+    
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+#copyright{
+    margin-top: 40px;
+}
